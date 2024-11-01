@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-grad {
+        @apply bg-gradient-to-l from-[#0D1224] via-purple-800 to-[#0D1224]  bg-cover bg-center;
+    }
+}
+
+.animate-spin {
+    animation: spin 7s linear infinite;
+}
+
+.hello {
+    animation: move 1.5s linear 1s infinite alternate;
+    rotate:0deg
+
+}
+@keyframes move {
+    0% {
+        rotate:20deg;
+    }
+
+    20% {
+        rotate:-20deg;
+    }
+    40% {
+        rotate:20deg;
+    }
+    60% {
+        rotate:-20deg;
+    }
+    80%{
+        rotate:0deg;
+    }
+    100%{
+        rotate:0deg
+    }
+
+}
