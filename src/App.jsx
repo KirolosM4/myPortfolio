@@ -8,7 +8,7 @@ const App = () => {
             <MainContent/>
             <MainContent/>
             <div className="h-screen">
-                h
+                <img src={"/darkBack.jfif"} alt="" />
             </div>
         </div>
     )
