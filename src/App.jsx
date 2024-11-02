@@ -7,7 +7,7 @@ const App = () => {
             <HeaderNav/>
             <MainContent/>
             <div className="h-screen">
-                <img src={"./../public/darkBack.jfif"} alt="" />
+                <img src={"/darkBack.jfif"} alt="" />
             </div>
         </div>
     )
