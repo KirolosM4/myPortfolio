@@ -3,13 +3,9 @@ import HeaderNav from "./Component/HeaderNav";
 import MainContent from "./MainContent";
 const App = () => {
     return(
-        <div className="bg-grad">
+        <div className="bg-mainContent">
             <HeaderNav/>
             <MainContent/>
-            <MainContent/>
-            <div className="h-screen">
-                dkdjkjdkjkdjkfkjkfjkdfjkdfjdfkjdkfjdfkjdfkj
-            </div>
         </div>
     )
 }
