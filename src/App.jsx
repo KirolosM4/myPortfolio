@@ -6,6 +6,9 @@ const App = () => {
         <div className="bg-mainContent bg-fixed">
             <HeaderNav/>
             <MainContent/>
+            <div>
+                <img src="../image/darkBack.jpg" alt="" />
+            </div>
         </div>
     )
 }
