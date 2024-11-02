@@ -1,15 +1,13 @@
 import React from "react";
 import HeaderNav from "./Component/HeaderNav";
 import MainContent from "./MainContent";
-import darkBack from "../image/darkBack.jpg"
 const App = () => {
     return(
-        <div className="bg-mainContent">
+        <div className="bg-grad">
             <HeaderNav/>
             <MainContent/>
-            <div className="h-screen" style={{backgroundImage:darkBack}}>
-                
-            </div>
+            <MainContent/>
+            <img src={"../public/darkBack.jfif"} alt="" />
         </div>
     )
 }
