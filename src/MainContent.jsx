@@ -12,7 +12,6 @@ const MainContent = () => {
                 <div className="flex flex-col md:flex-row justify-between h-[80%] items-center text-center md:text-left">
                     <div className="flex flex-col gap-7 grow">
                             <p className="text-white flex gap-3 items-center justify-center md:justify-start p-3">Hello <span className="block text-3xl hello">👋</span></p>
-                            <p className="text-white flex gap-3 items-center justify-center md:justify-start p-3">I <span className="block text-3xl heart">❤️️</span> you Koky</p>
                             <p className="text-white">Iam <span className="text-cyan-500">Kirolos Magdy</span> this is my portfolio</p>
                             <TypeAnimation
                             sequence={[
