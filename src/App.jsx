@@ -1,10 +1,9 @@
 import React from "react";
 import HeaderNav from "./Component/HeaderNav";
 import MainContent from "./MainContent";
-import bgDark from "../image/darkBack.jfif"
 const App = () => {
     return(
-        <div className="bg-mainContent bg-fixed" style={{backgroundImage:bgDark}}>
+        <div className="bg-mainContent bg-fixed">
             <HeaderNav/>
             <MainContent/>
         </div>

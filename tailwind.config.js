@@ -12,7 +12,7 @@ module.exports = withMT({
   theme: {
     extend: {
       backgroundImage:{
-        "mainContent": "url('./image/darkBack.jfif')"
+        "mainContent": "url('./image/darkBack2.jpg')"
       }
     },
   },
