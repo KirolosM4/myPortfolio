@@ -4,7 +4,7 @@ import MainContent from "./MainContent";
 
 const App = () => {
     return(
-        <div>
+        <div className="bg-mainContent bg-fixed">
             <HeaderNav/>
             <MainContent/>
         </div>

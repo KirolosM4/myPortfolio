@@ -87,8 +87,8 @@ const HeaderNav = () => {
     };
   }, []);
   return (
-   <div className="bg-grad ">
-      <div className="container h-[10vh] mx-auto max-w-screen-3xl px-6 py-3 shadow-none rounded-none border-none ">
+   <div>
+      <div className="container h-fit mx-auto max-w-screen-3xl px-6 py-3 shadow-none rounded-none border-none">
           <div className="flex items-center justify-between text-blue-gray-900">
             <Typography
               as="a"
