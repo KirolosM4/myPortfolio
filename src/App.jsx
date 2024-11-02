@@ -6,6 +6,9 @@ const App = () => {
         <div className="bg-mainContent">
             <HeaderNav/>
             <MainContent/>
+            <div className="h-screen">
+                <img src={"./../public/darkBack.jfif"} alt="" />
+            </div>
         </div>
     )
 }
