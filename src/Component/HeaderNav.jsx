@@ -27,7 +27,7 @@ const NavList = () => {
         className="p-1 font-medium text-white"
       >
         <Link href="#" className="flex items-center hover:text-cyan-500 transition-colors">
-          EXPERIENCE
+          SKILLS
         </Link>
       </Typography>
       <Typography
@@ -37,7 +37,7 @@ const NavList = () => {
         className="p-1 font-medium text-white"
       >
         <Link href="#" className="flex items-center hover:text-cyan-500 transition-colors">
-          SKILLS
+          EXPERIENCE
         </Link>
       </Typography>
       <Typography

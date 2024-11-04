@@ -7,8 +7,8 @@ const About = () => {
                 <p className="text-xl">About Me</p>
             </div>
             <div className="w-full my-5 p-3  relative before:absolute before:content-[''] before:bg-black before:w-full before:h-full before:left-0 before:top-0 before:opacity-70">
-                <div className="container mx-auto flex flex-col md:flex-row justify-between items-center h-full">
-                    <div className="text-white relative text-sm md:text-xl text-center md:text-left">
+                <div className="container mx-auto flex flex-col md:flex-row justify-between items-center h-full gap-7 ">
+                    <div className="text-white relative text-sm md:text-xl text-center md:text-left leading-relaxed">
                         <p className="text-cyan-500">WHO IAM</p>
                         <p>My name is Kirolos Magdy, iam 24 years old. iam a Frontend developer [React] ,</p>
                         <p>And I work as a teaching assistant at thebes academy </p>
