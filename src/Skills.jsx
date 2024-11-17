@@ -16,8 +16,8 @@ import { SiNextdotjs } from "react-icons/si";
 
 const Skills = () => {
     return(
-        <di className="flex flex-col items-center">
-            <div className="headerBeforeAfter">
+        <div className="flex flex-col items-center" id="skills">
+            <div className="headerBeforeAfter my-5">
                 <p className="text-xl">Skills</p>
             </div>
             <div className="container h-[40vh] mx-auto p-5 relative before:w-full before:h-[1px] before:bg-gradient-to-r before:from-indigo-800 before:via-indigo-300 before:to-indigo-800 before:my-5 before:rounded-[50%] before:absolute before:top-[-10px] before:left-0 after:w-full after:h-[1px] after:bg-gradient-to-r after:from-indigo-800 after:via-indigo-300 after:to-indigo-800 after:my-5 after:rounded-[50%] after:absolute after:left-0 after:bottom-[-10px]">
@@ -77,7 +77,7 @@ const Skills = () => {
                     </Swiper>
                 </div>
             </div>
-        </di>
+        </div>
     )
 }
 

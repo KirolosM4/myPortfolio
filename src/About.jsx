@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import AboutMe from "/Me.jpg"
 const About = () => {
     return(
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center" id="about">
             <div className="headerBeforeAfter">
                 <p className="text-xl">About Me</p>
             </div>

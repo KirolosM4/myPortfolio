@@ -7,7 +7,7 @@ import {BrowserRouter} from "react-router-dom"
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
       <ThemeProvider>
-        <App />
+        <App className="scroll-smooth"/>
       </ThemeProvider>
   </BrowserRouter>
 

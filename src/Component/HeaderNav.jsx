@@ -17,17 +17,27 @@ const NavList = () => {
         variant="small"
         className="p-1 font-medium text-white"
       >
-        <Link href="#" className="flex items-center hover:text-cyan-500 transition-colors">
+        <a href="#about" className="flex items-center hover:text-cyan-500 transition-colors">
           ABOUT
-        </Link>
+        </a>
       </Typography>
       <Typography
         as="li"
         variant="small"
         className="p-1 font-medium text-white"
       >
-        <Link href="#" className="flex items-center hover:text-cyan-500 transition-colors">
+        <a href="#skills" className="flex items-center hover:text-cyan-500 transition-colors">
           SKILLS
+        </a>
+      </Typography>
+      <Typography
+        as="li"
+        variant="small"
+        color="blue-gray"
+        className="p-1 font-medium text-white"
+      >
+        <Link href="#" className="flex items-center hover:text-cyan-500 transition-colors">
+          EDUCATION
         </Link>
       </Typography>
       <Typography
@@ -37,37 +47,7 @@ const NavList = () => {
         className="p-1 font-medium text-white"
       >
         <Link href="#" className="flex items-center hover:text-cyan-500 transition-colors">
-          EXPERIENCE
-        </Link>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-medium text-white"
-      >
-        <Link href="#" className="flex items-center hover:text-cyan-500 transition-colors">
-          EDUCTAION
-        </Link>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-medium text-white"
-      >
-        <Link href="#" className="flex items-center hover:text-cyan-500 transition-colors">
-          BLOGS
-        </Link>
-      </Typography>
-      <Typography
-        as="li"
-        variant="small"
-        color="blue-gray"
-        className="p-1 font-medium text-white"
-      >
-        <Link href="#" className="flex items-center hover:text-cyan-500 transition-colors">
-          PROJECTS
+        EXPERIENCE
         </Link>
       </Typography>
     </ul>

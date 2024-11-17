@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+html {
+    scroll-behavior: smooth;
+}
 @layer utilities {
     .bg-grad {
         @apply bg-gradient-to-l from-[#0D1224] via-purple-800 to-[#0D1224]  bg-cover bg-center;
@@ -44,4 +46,20 @@
         rotate:0deg
     }
 
+}
+
+.animEduImg {
+    animation: imgEdu 3s linear infinite alternate;
+}
+
+@keyframes imgEdu {
+    0%{
+        top:20px;
+    } 
+    50% {
+        top:-20px
+    }
+    100%{
+        top:20px
+    }
 }
