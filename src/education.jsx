@@ -14,11 +14,11 @@ const Education = () => {
                     <img src={edu} className="relative w-[70%] h-[70%] animEduImg" alt="" />
                 </div>
                 <div className="w-full flex flex-col gap-7">
-                    <div className="relative text-white text-center md:text-left flex flex-col md:flex-row  items-center gap-7 p-5 bg-[#1A1443] rounded before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-1/2 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[0%] before:transition-all before:duration-700 before:bg-gradient-to-r before:from-indigo-800 before:via-indigo-300 before:to-indigo-800 before:h-[2px] hover:before:w-[100%]">
+                    <div className="relative text-white text-center md:text-left flex flex-col md:flex-row  items-center gap-7 p-5 bg-[#1A1443] rounded before:content-[''] before:absolute before:top-0 before:left-0  before:w-1/2 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[0%] before:transition-all before:duration-700 before:bg-gradient-to-r before:from-indigo-800 before:via-indigo-300 before:to-indigo-800 before:h-[2px] hover:before:w-[100%]">
                         <TbCertificate className="text-2xl text-cyan-500" />
                         <p>Bachelor of Management Information Systems</p>
                     </div>
-                    <div className="relative text-white text-center md:text-left flex flex-col md:flex-row  items-center gap-7 p-5 bg-[#1A1443] rounded before:content-[''] before:absolute before:top-0 before:left-0 before:h-full before:w-1/2 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[0%] before:transition-all before:duration-700 before:bg-gradient-to-r before:from-indigo-800 before:via-indigo-300 before:to-indigo-800 before:h-[2px] hover:before:w-[100%]">
+                    <div className="relative text-white text-center md:text-left flex flex-col md:flex-row  items-center gap-7 p-5 bg-[#1A1443] rounded before:content-[''] before:absolute before:top-0 before:left-0  before:w-1/2 before:content-[''] before:absolute before:left-0 before:top-0 before:w-[0%] before:transition-all before:duration-700 before:bg-gradient-to-r before:from-indigo-800 before:via-indigo-300 before:to-indigo-800 before:h-[2px] hover:before:w-[100%]">
                         <TbCertificate className="text-2xl text-cyan-500" />
                         <p>Diploma in Computer Science</p>
                     </div>
