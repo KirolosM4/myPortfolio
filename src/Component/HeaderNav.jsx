@@ -36,9 +36,9 @@ const NavList = () => {
         color="blue-gray"
         className="p-1 font-medium text-white"
       >
-        <Link href="#" className="flex items-center hover:text-cyan-500 transition-colors">
+        <a href="#education" className="flex items-center hover:text-cyan-500 transition-colors">
           EDUCATION
-        </Link>
+        </a>
       </Typography>
       <Typography
         as="li"

@@ -49,17 +49,17 @@ html {
 }
 
 .animEduImg {
-    animation: imgEdu 3s linear infinite alternate;
+    animation: imgEdu 2s linear infinite alternate;
 }
 
 @keyframes imgEdu {
     0%{
-        top:20px;
+        top:10px;
     } 
     50% {
-        top:-20px
+        top:-10px
     }
     100%{
-        top:20px
+        top:10px
     }
 }
